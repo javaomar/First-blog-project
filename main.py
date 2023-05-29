@@ -82,8 +82,8 @@ class Comment(db.Model):
 
 
 
-with app.app_context():
-    db.create_all()
+# with app.app_context():
+#     db.create_all()
 
 
 gravatar = Gravatar(app,size=100,rating='g',default='retro',force_default=False,
